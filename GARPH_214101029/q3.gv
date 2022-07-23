@@ -1,0 +1,50 @@
+digraph g
+{
+node [shape = record,height=.1];
+
+ node [ style=bold ]
+"GRAPH G' RED EDGE : STRONG COMPONENT EDGE"->"BLUE EDGE : COMPONENT EDGE"
+
+ edge [ color=red ]
+ node [ style=bold ]
+"4"->"3" [style=bold];
+ edge [ color=red ]
+ node [ style=bold ]
+"3"->"1" [style=bold];
+ edge [ color=red ]
+ node [ style=bold ]
+"1"->"4" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"0"->"1" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"0"->"2" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"1"->"2" [style=bold];
+}
+
+color=red ]
+ node [ style=bold ]
+"2"->"1" [style=bold];
+ edge [ color=red ]
+ node [ style=bold ]
+"1"->"0" [style=bold];
+ edge [ color=red ]
+ node [ style=bold ]
+"0"->"3" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"1"->"4" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"5"->"7" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"5"->"8" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"7"->"9" [style=bold];
+}
+

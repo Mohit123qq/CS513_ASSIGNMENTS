@@ -1,0 +1,38 @@
+digraph g
+{
+node [shape = record,height=.1];
+ edge [ color=green ]"0 [1/10]"->"1 [2/9]"[style=bold,label="tree edge"];
+ edge [ color=red ]"0 [1/10]"->"2 [3/4]"[style=bold,label="forward edge"];
+ edge [ color=green ]"1 [2/9]"->"2 [3/4]"[style=bold,label="tree edge"];
+ edge [ color=green ]"1 [2/9]"->"3 [5/6]"[style=bold,label="tree edge"];
+ edge [ color=green ]"1 [2/9]"->"4 [7/8]"[style=bold,label="tree edge"];
+ edge [ color=black ]"3 [5/6]"->"2 [3/4]"[style=dotted,label="cross edge"];
+ edge [ color=blue ]"3 [5/6]"->"1 [2/9]"[style=bold,label="back edge"];
+ edge [ color=black ]"4 [7/8]"->"3 [5/6]"[style=dotted,label="cross edge"];
+
+}
+
+e"];
+ edge [ color=blue ]"4 [5/14]"->"6 [4/15]"[style=bold,label="back edge"];
+ edge [ color=blue ]"5 [6/13]"->"6 [4/15]"[style=bold,label="back edge"];
+ edge [ color=green ]"5 [6/13]"->"7 [7/12]"[style=bold,label="tree edge"];
+ edge [ color=red ]"5 [6/13]"->"8 [9/10]"[style=bold,label="forward edge"];
+ edge [ color=red ]"5 [6/13]"->"9 [8/11]"[style=bold,label="forward edge"];
+ edge [ color=green ]"6 [4/15]"->"4 [5/14]"[style=bold,label="tree edge"];
+ edge [ color=green ]"7 [7/12]"->"9 [8/11]"[style=bold,label="tree edge"];
+ edge [ color=blue ]"8 [9/10]"->"9 [8/11]"[style=bold,label="back edge"];
+ edge [ color=green ]"9 [8/11]"->"8 [9/10]"[style=bold,label="tree edge"];
+
+}
+
+}
+
+
+
+}
+
+[6/15]"->"9 [10/11]"[style=bold,label="forward edge"];
+"8 [6/15]"->"9 [10/11]"
+
+}
+

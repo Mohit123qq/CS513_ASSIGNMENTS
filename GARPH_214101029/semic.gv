@@ -1,0 +1,38 @@
+digraph g
+{
+node [shape = record,height=.1];
+
+ node [ style=bold ]
+"DAG OF G' GRAPH"
+ edge [ color=blue ]
+ node [ style=bold ]
+"2"->"1" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"3"->"2" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"3"->"1" [style=bold];
+}
+
+ [ color=blue ]
+ node [ style=bold ]
+"4"->"3" [style=bold];
+}
+
+ [ color=blue ]
+ node [ style=bold ]
+"6"->"5" [style=bold];
+}
+
+ [ color=blue ]
+ node [ style=bold ]
+"6"->"5" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"8"->"5" [style=bold];
+ edge [ color=blue ]
+ node [ style=bold ]
+"8"->"7" [style=bold];
+}
+

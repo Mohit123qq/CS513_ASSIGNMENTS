@@ -1,0 +1,67 @@
+digraph g
+{
+node [shape = record,height=.1];
+
+ node [ style=bold ]
+"SOURCE NODE : 1"
+
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:0, DISTANCE:[1000000007], [1]"->"NODE:1, DISTANCE:[0], [1]" [style=bold,label="1"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:0, DISTANCE:[1000000007], [1]"->"NODE:2, DISTANCE:[3], [1]" [style=bold,label="4"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:1, DISTANCE:[0], [1]"->"NODE:2, DISTANCE:[3], [1]" [style=bold,label="3"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:1, DISTANCE:[0], [1]"->"NODE:3, DISTANCE:[2], [1]" [style=bold,label="2"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:1, DISTANCE:[0], [1]"->"NODE:4, DISTANCE:[2], [1]" [style=bold,label="2"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:3, DISTANCE:[2], [1]"->"NODE:2, DISTANCE:[3], [1]" [style=bold,label="5"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:3, DISTANCE:[2], [1]"->"NODE:1, DISTANCE:[0], [1]" [style=bold,label="1"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:4, DISTANCE:[2], [1]"->"NODE:3, DISTANCE:[2], [1]" [style=bold,label="3"];
+}
+
+yle=bold,label="2"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:4, DISTANCE:[1000000007], [1]"->"NODE:7, DISTANCE:[2], [1]" [style=bold,label="2"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:4, DISTANCE:[1000000007], [1]"->"NODE:6, DISTANCE:[4], [7]" [style=bold,label="2"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:4, DISTANCE:[1000000007], [1]"->"NODE:5, DISTANCE:[1000000007], [1]" [style=bold,label="2"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:6, DISTANCE:[4], [7]"->"NODE:1, DISTANCE:[0], [1]" [style=bold,label="2"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:7, DISTANCE:[2], [1]"->"NODE:6, DISTANCE:[4], [7]" [style=bold,label="2"];
+}
+
+node [ style=bold ]
+"NODE:8, DISTANCE:[1000000007], [0]"->"NODE:7, DISTANCE:[1000000007], [0]" [style=bold,label="2"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:8, DISTANCE:[1000000007], [0]"->"NODE:9, DISTANCE:[1000000007], [0]" [style=bold,label="2"];
+}
+
+;
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:8, DISTANCE:[2], [5]"->"NODE:9, DISTANCE:[2], [5]" [style=bold,label="2"];
+ edge [ color=red ]
+ node [ style=bold ]
+"NODE:9, DISTANCE:[2], [5]"->"NODE:8, DISTANCE:[2], [5]" [style=bold,label="2"];
+}
+
